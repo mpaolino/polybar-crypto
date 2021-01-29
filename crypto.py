@@ -38,7 +38,6 @@ session.headers.update(headers)
 try:
     response = session.get(url, params=parameters)
     data = json.loads(response.text)
-#    print(data)
 except (ConnectionError, Timeout, TooManyRedirects) as e:
     sys.stderr.write(e)
     exit(1)
