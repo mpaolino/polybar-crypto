@@ -31,7 +31,7 @@ modules-right = crypto
 
 [module/crypto]
 type = custom/script
-interval = 300
+interval = 1200
 exec = /home/<user>/.config/polybar/crypto.py
 
 ```
