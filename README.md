@@ -13,7 +13,7 @@ I'm not really interested in maintaining this, just sharing.
 
 # Setup
 ```
-git clone https://github.com/willHol/polybar-crypto.git &&
+git clone https://github.com/mpaolino/polybar-crypto.git &&
     cd polybar-crypto &&
     cp ./{crypto-config,crypto.py} ~/.config/polybar
 ```
