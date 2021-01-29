@@ -1,6 +1,7 @@
 [general]
 base_currency = NZD
 display = price
+api_key = PUT_YOUR_COINMARKETCAP_API_HERE
 
 [bitcoin]
 icon = 

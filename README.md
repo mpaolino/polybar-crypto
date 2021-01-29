@@ -1,6 +1,10 @@
 # polybar-crypto
 A *polybar script* that displays the price of various **crypto-currencies**.
+Disclaimer: This is a fork and a dirty hack to make this work again using [CoinMarketCap API, get your free key here](https://coinmarketcap.com/api/).
 
+There are [other, simpler solutions](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/ticker-crypto).
+
+I'm not really interested in maintaining this, just sharing.
 
 
 ![screen](https://user-images.githubusercontent.com/24377188/31326832-34dd06de-ad27-11e7-908f-9e7d72398eb7.jpg)
@@ -52,6 +56,7 @@ font-0 = cryptocoins:style=Regular;0
 [general]
 base_currency = NZD
 display = percentage
+api_key = PUT_YOUR_COINMARKETCAP_API_KEY_HERE
 
 [bitcoin]
 icon = 
